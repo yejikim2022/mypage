@@ -1,0 +1,68 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: 'Hahmlet', serif;
+}
+
+body{
+	background: rgba(222, 194, 153, 0.71);
+}
+
+/* 제목 */
+h1 {
+	margin: 5% auto 5%;
+	width: 300px;
+	text-align: center;
+}
+
+/* 버튼 공통 사항*/
+a {
+	margin: 2% auto 2%;
+	width: 500px;
+	height: 100px;
+	border: 4px solid black;
+	border-radius: 5px;
+	display: block;
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
+	line-height: 600%;
+	color: black;
+}
+
+/* 사람 */
+a:nth-child(2):hover {
+	background: url('../images/people.png');
+	cursor: pointer;
+}
+
+/* 동물 */
+a:nth-child(3):hover {
+	background: url('../images/animal.png');
+	cursor: pointer;
+}
+
+/* 식물 */
+a:nth-child(4):hover {
+	background: url('../images/plant.png');
+	cursor: pointer;
+}
+/* 
+@media screen and (max-width: 768px) {
+.mytitle {
+margin: 5% auto 5%;
+font-size: 10px;
+font-weight: bold;
+}
+a {
+	width: 250px;
+	height: 80px;
+	margin-top: 40px;
+
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+} */

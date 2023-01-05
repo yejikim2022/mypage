@@ -1,0 +1,135 @@
+*{font-family: 'Hahmlet', serif;}
+
+body {
+	background: rgba(222, 194, 153, 0.71);
+}
+
+.progress {
+max-width: 500px;
+height: 20px;
+background-color: white;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+margin-bottom: 50px;
+}
+
+.progress .value{
+width: 10%;
+height: 20px;
+background-color: orange;
+border-radius: 10px;
+transition:0.2s;
+}
+
+.wrap {
+	text-align: center;
+	max-width: 500px;
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 20px;
+	box-shadow: o 4px 25px grey;
+}
+
+.wrap .subject {
+font-size: 30px;
+margin-top: 3px;
+font-weight: 900;
+}
+
+.wrap .number {
+font-size: 40px;
+font-weight: 1000;
+color: darkblue;
+margin-bottom: 10px;
+}
+
+.wrap .question {
+font-size: 35px;
+font-weight: 700;
+line-height: 1;
+margin-bottom: 20px;
+}
+
+.option1 {
+	width: 500px;
+	height: 100px;
+	margin-top: 30px;
+	background-color: lightgrey;
+	border-radius: 150px;
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	box-shadow: 0 14px 0 grey;
+}
+
+.option2 {
+	width: 500px;
+	height: 100px;
+	margin-top: 30px;
+	background-color: lightgrey;
+	border-radius: 150px;
+	font-size: 30px;
+	font-weight: bold;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	box-shadow: 0 14px 0 grey;
+}
+
+.option1:hover {
+	border: 2px solid white;
+	background-color: grey;
+	transition: 0.2s;
+}
+
+.option2:hover {
+	border: 2px solid white;
+	background-color: grey;
+	transition: 0.2s;
+}
+
+img {width:400px;
+height: 250px;}
+
+@media screen and (max-width: 768px) {
+img {
+width:300px;
+height: 200px;
+}
+.question {
+font-size: 40px;
+font-weight: bold;
+margin-top: 50px;
+}
+.option1 {
+	width: 250px;
+	height: 75px;
+	margin-top: 40px;
+
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+.option2 {
+	width: 250px;
+	height: 75px;
+	margin-top: 40px;
+
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+}
